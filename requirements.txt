@@ -26,6 +26,7 @@ faiss-cpu==1.6.1
 filelock==3.0.12
 fsspec==0.8.7
 future==0.18.2
+gdown==3.12.2
 idna==2.10
 importlib-metadata==3.7.3
 ipykernel==5.5.0
@@ -67,6 +68,7 @@ pydeck==0.6.1
 Pygments==2.8.1
 pyparsing==2.4.7
 pyrsistent==0.17.3
+PySocks==1.7.1
 python-dateutil==2.8.1
 pytz==2021.1
 pyzmq==22.0.3
@@ -97,7 +99,7 @@ typing-extensions==3.7.4.3
 tzlocal==2.1
 urllib3==1.26.4
 validators==0.18.2
--e git+https://github.com/simoroma/vector_engine.git@357bdf10daf0ccd78f777acb69b18460316026e5#egg=vector_engine
+-e git+https://github.com/simoroma/vector_engine.git@cf8a87b76b5b2c4c7afae55b6e5f5ecf235115e2#egg=vector_engine
 watchdog==2.0.2
 wcwidth==0.2.5
 webencodings==0.5.1

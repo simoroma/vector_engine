@@ -141,3 +141,7 @@ dmypy.json
 
 # Visual studio
 .vscode
+
+# Data to ignore
+models/faiss_index.pickle
+legal.csv
