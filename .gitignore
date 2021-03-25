@@ -138,3 +138,6 @@ dmypy.json
 
 # OSX
 .DS_Store
+
+# Visual studio
+.vscode
