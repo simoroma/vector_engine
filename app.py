@@ -80,7 +80,7 @@ def main():
             st.write(
                 f"""**{f.iloc[0].title}**"""
             )
-            link = f'**OPEN**: [{f.iloc[0].link}]({f.iloc[0].link})'
+            link = f'📃: [{f.iloc[0].link}]({f.iloc[0].link})'
             st.markdown(link, unsafe_allow_html=True)
 
 if __name__ == "__main__":
