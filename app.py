@@ -7,13 +7,10 @@ from vector_engine.utils import vector_search
 import gdown
 
 @st.cache
-def read_data():
-    """Read from Google"""
-    id_data = "1-I6sGmfrlGxBvTbhp91GljBp23RNEPrm"
-    url = 'https://drive.google.com/uc?id=' + id_data
-    output = 'legal.csv'
-    gdown.download(url, output, quiet=False)
-    return pd.read_csv(output)
+
+def read_data(data="data/misinformation_papers.csv"):
+    """Read the data from local."""
+    return pd.read_csv(data)
 
 
 @st.cache(allow_output_mutation=True)
