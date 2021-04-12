@@ -19,7 +19,7 @@ def load_bert_model(name="distilbert-base-nli-stsb-mean-tokens"):
 
 
 @st.cache(allow_output_mutation=True)
-def load_faiss_index(path_to_faiss="models/faiss_index.pickle"):
+def load_faiss_index(path_to_faiss="models/faiss_index_orig.pickle"):
     """Load and deserialize the Faiss index."""
     with open(path_to_faiss, "rb") as h:
         data = pickle.load(h)
